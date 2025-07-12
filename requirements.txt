@@ -4,6 +4,7 @@ pandas
 scikit-learn
 numpy
 streamlit-lottie
+xgboost
 
 
 # RUN : streamlit run app.py
