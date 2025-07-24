@@ -54,8 +54,8 @@ if page == "Dashboard":
     st.markdown(
         """
         <div style="text-align:center">
-            <h1 style="font-size: 60px;">KASI NAMA</h1>
-            <h3>Belom Kasi nama </h3>
+            <h1 style="font-size: 60px;">PANGANet</h1>
+            <h3>An Intelligent Machine Learning System for Early Detection of Regional Food Security and Policy Formulation </h3>
         </div>
         """,
         unsafe_allow_html=True
@@ -63,9 +63,23 @@ if page == "Dashboard":
 
     st.markdown(""" 
     <div style='text-align: justify; font-size: 18px;'>
-        <p>
-           <strong>KasiNAMA</strong> kasi deskripsi.
-    </div>
+    <p>
+        <strong>PANGANet: Sistem Pembelajaran Mesin Cerdas untuk Deteksi Dini Ketahanan Pangan Regional dan Perumusan Kebijakan</strong>
+    </p>
+    <p>
+        PANGANet adalah sistem berbasis pembelajaran mesin (machine learning) yang dirancang untuk meningkatkan deteksi dini dan analisis masalah ketahanan pangan di tingkat regional. Dengan memanfaatkan analitik data dan pemodelan prediktif yang canggih, PANGANet memproses dan menganalisis berbagai sumber data, termasuk indikator ekonomi, hasil pertanian, dan faktor sosial-politik, untuk mengidentifikasi tren yang muncul dalam ketahanan pangan di berbagai wilayah. Sistem ini memberikan wawasan berharga yang membantu pembuat kebijakan, ahli pertanian, dan pemangku kepentingan lainnya dalam merumuskan kebijakan yang tepat sasaran dan berbasis data untuk mengatasi masalah ketahanan pangan.
+    </p>
+    <p><strong>Fitur Utama:</strong></p>
+    <ul>
+        <li><strong>Deteksi Dini:</strong> PANGANet menggunakan algoritma pembelajaran mesin untuk memantau dan memprediksi potensi ancaman terhadap ketahanan pangan sebelum masalah tersebut memburuk, memungkinkan intervensi yang tepat waktu.</li>
+        <li><strong>Wawasan Regional:</strong> Dengan fokus pada data lokal, PANGANet menawarkan pemahaman mendalam tentang tantangan ketahanan pangan yang spesifik di berbagai wilayah, dengan mempertimbangkan faktor ekonomi dan lingkungan setempat.</li>
+        <li><strong>Dukungan Kebijakan Berbasis Data:</strong> Sistem ini membantu pembuat kebijakan dalam merumuskan strategi yang informatif dan efektif untuk meningkatkan ketahanan pangan dan memastikan sistem pasokan pangan yang berkelanjutan.</li>
+    </ul>
+    <p>
+        Melalui PANGANet, pemerintah dan organisasi dapat mengambil langkah proaktif untuk mencegah krisis pangan, mengoptimalkan alokasi sumber daya, dan meningkatkan perumusan kebijakan pangan secara keseluruhan.
+    </p>
+</div>
+
     """, unsafe_allow_html=True)
 
     #     # Embed iframe for the data visualization
