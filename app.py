@@ -140,16 +140,16 @@ elif page == "Prediksi IKP":
         col1, col2 = st.columns(2)
         with col1:
             feature1 = st.number_input('NCPR', min_value=0.0)
-            feature2 = st.number_input('Kemiskinan', min_value=0.0)
-            feature3 = st.number_input('Pengeluaran Pangan', min_value=0.0)
-            feature4 = st.number_input('Tanpa Listrik ', min_value=0.0)
-            feature5 = st.number_input('Tanpa air bersih', min_value=0.0)
+            feature2 = st.number_input('Kemiskinan (%)', min_value=0.0)
+            feature3 = st.number_input('Pengeluaran Pangan (%)', min_value=0.0)
+            feature4 = st.number_input('Tanpa Listrik (%)', min_value=0.0)
+            feature5 = st.number_input('Tanpa air bersih (%)', min_value=0.0)
 
         with col2:
-            feature6 = st.number_input('Lama Sekolah untuk perempuan', min_value=0.0)
+            feature6 = st.number_input('Lama Sekolah untuk perempuan (Tahun)', min_value=0.0)
             feature7 = st.number_input('Rasio Tenaga Kesehatan', min_value=0.0)
-            feature8 = st.number_input('Angka Harapan Hidup', min_value=0.0)
-            feature9 = st.number_input('Stunting', min_value=0.0)
+            feature8 = st.number_input('Angka Harapan Hidup (Tahun)', min_value=0.0)
+            feature9 = st.number_input('Stunting (%)', min_value=0.0)
             
 
         submit_button = st.form_submit_button("🔍 Prediksi IKP")
